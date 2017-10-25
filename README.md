@@ -6,5 +6,5 @@ Docker uses resource isolation features of the Linux kernel such as cgroups and 
 Docker is an open-source project which aims to automate the deployment of applications inside portable containers that are independent of hardware, host operating system, and language.
 Containers include the application and all of its dependencies, but share the kernel with other containers. Running software in production without monitoring is like driving without visibility:
 you have no idea if you’re about to crash, or how to stay on the road. The need for monitoring is well understood, so traditional monitoring solutions cover the traditional stack:
- Application performance monitoring instruments your custom code to identify and pinpoint bottlenecks or errors
- Infrastructure monitoring collects metrics about the host, such as CPU load and available memory.
+-Application performance monitoring instruments your custom code to identify and pinpoint bottlenecks or errors
+-Infrastructure monitoring collects metrics about the host, such as CPU load and available memory.
