@@ -8,3 +8,14 @@ Containers include the application and all of its dependencies, but share the ke
 you have no idea if you’re about to crash, or how to stay on the road. The need for monitoring is well understood, so traditional monitoring solutions cover the traditional stack:
 * Application performance monitoring instruments your custom code to identify and pinpoint bottlenecks or errors
 * Infrastructure monitoring collects metrics about the host, such as CPU load and available memory.
+ ## Software and Hardware Requirements The following requirements are: 
+ ### SOFTWARE
+* Python 2.7 or higher
+* Flask 0.10.1 or higher
+* Mysql 4.1 or higher
+* HTML 5.0
+* CSS 3.0 or higher
+* Docker Client and Server API version 1.21 or higher
+### HARDWARE
+* LINUX KERNEL 3.10 or higher
+* Other requirements, same as the docker.
