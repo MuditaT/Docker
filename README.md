@@ -8,7 +8,7 @@ Containers include the application and all of its dependencies, but share the ke
 you have no idea if you’re about to crash, or how to stay on the road. The need for monitoring is well understood, so traditional monitoring solutions cover the traditional stack:
 * Application performance monitoring instruments your custom code to identify and pinpoint bottlenecks or errors
 * Infrastructure monitoring collects metrics about the host, such as CPU load and available memory.
- ## Software and Hardware Requirements The following requirements are: 
+ ## Software and Hardware Requirements: 
  ### SOFTWARE
 * Python 2.7 or higher
 * Flask 0.10.1 or higher
@@ -19,3 +19,13 @@ you have no idea if you’re about to crash, or how to stay on the road. The nee
 ### HARDWARE
 * LINUX KERNEL 3.10 or higher
 * Other requirements, same as the docker.
+## Result Analysis
+The results have been recorded for different situations: First, to check functionality of all the buttons provided on the GUI. Second, to check the precision of all the values displayed on the GUI and how much load it can take. Third case is how frequently the values are updated. Hence, docker monitoring tool has made it possible to monitor multiple docker containers at a time with correct and more frequent value updates.
+## Project Outcome:
+* Tool will display all the real time and static data about the containers running on the machine.
+* Tool will show graphical representation of the data.
+* Tool will provide functions to start, stop, pause, un-pause, and kill the container id of any image available on the machine.
+* Tool will also warn the user by displaying alerts and warnings for any illegal scenario like over consumption of memory, CPU, etc
+* Tool will list down all the images present on the machine.
+* Tool will show the overall CPU usage (core-wise) and memory usage by the docker.
+* Tool will provide the option for comparison of two or more container data.
