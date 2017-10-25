@@ -1,0 +1,546 @@
+body
+{
+	color: #fa1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid
+{
+	color:white;
+	text-align:center;
+	font-size: large;
+	padding: 0.5%
+	
+}
+
+.container
+{
+	overflow:auto;
+	position:fixed;
+	top:0%;
+	left:0.5%;
+	width:100%;
+	height:100%;
+
+}
+
+
+#basebackground
+{
+	height: 100%;
+	width: 100%;
+}
+
+#topdiv
+{	
+	position: absolute;
+	color:white;
+	text-align:center;	
+	top: 0%;
+	left:0%;
+	background: rgba(0,0,0,.3);
+	width: 100%;
+	height: 5%;
+	box-shadow: 2px 2px 5px #000000;
+	
+	
+}
+
+#alertpanel
+{
+	position:absolute;
+	left:0%;
+	width:10%;
+	height: 5%;
+	top:0%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+}
+
+.header
+{
+	top: 0%;
+	left:0%;
+	background: rgba(0,0,0,.2);
+	width:100%;
+	
+	position: absolute;
+	color:white;
+	text-align:center;
+	overflow:hidden;
+	padding: 1%;
+	font-size: large;
+		
+}
+
+#cont_graph
+{
+	display:none;
+	position: absolute;
+	top: 107%;
+	left:0%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	width:50%;
+	height: 45%;
+	font-size: 100%;
+}
+
+#cont_history
+{
+	display:none;
+	position: absolute;
+	top: 154%;
+	left:0%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	width: 99%;	
+	height: 46%;
+	margin-bottom: 2%;
+	font-size: 100%;
+}
+#cpupanel
+{
+	position: absolute;
+	top: 72%;
+	left:0%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	width:16%;
+	height: 26.6%;
+	font-size: 100%;
+}
+
+#tablepanel
+{
+
+	position:absolute;
+	top: 7%;
+	left:16.8%;
+	width:82.3%;
+	height:52%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+}
+
+#startpanel
+{
+
+	position:absolute;
+	top:61%;
+	left:68%;
+	width:30.9%;
+	height:38%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+}
+
+#memorypanel
+{
+	position: absolute;
+	top: 42.5%;
+	left:0%;
+	width:16%;
+	height: 26.6%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	font-size:100%
+}
+
+#networkpanel
+{
+
+	position: absolute;
+	top: 7%;
+	left:0%;
+	font-size: large;
+	width:16%;
+	height: 32.5%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+#staticpanel
+{
+	display:none;
+	position:absolute;
+	top:107%;
+	left: 51%;
+	width:48%;
+	height:45%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+	font-size: 100%
+}
+
+#graphpanel
+{
+	position:absolute;
+	top:61%;
+	left: 16.8%;
+	width:50%;
+	height:38%;
+	background: rgba(0,0,0,.3);
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.5em;
+}
+
+
+#Total_CPU, #Total_Mem
+{
+	/*font-family: 'Black Ops One', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 400%;
+	position: absolute;
+	top: 30%;
+	text-align: center;
+}
+
+#nwdata
+{
+position: absolute;
+top: 15%;
+	left: 10.5%;
+}
+
+#s_info {
+float: left;
+}
+
+#basegraph, .gr, .hgr
+{
+	position: absolute;
+	top:0%;
+	left:0%;
+}
+
+
+
+#baseTable
+{
+	
+	width: 100%;
+	height: 90%;
+	overflow: hidden;
+	
+}
+
+#start, #pause, #kill, #stop, #restart, #create, #remove, #report, #unpause
+{
+	border: 0px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19), 0 2px 2px 0 rgba(0,0,0,0.19);
+	width: 40%;
+	margin: 3% 4%;
+	font-size: 90%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding:;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.2);
+	position: relative;
+	height: 11%;
+	
+	
+}
+
+.diff_graphs, .hdiff_graphs
+{
+	border: 0px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.19), 0 2px 2px 0 rgba(0,0,0,0.19);
+	width: 15%;
+	margin: 3% 4%;
+	font-size: 90%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: absolute;
+	height: 11%;
+}
+
+#cpu_btn
+{
+	left: 79%;
+}
+
+#mem_btn
+{
+	left: 79%;
+	top: 33%;
+}
+
+#net_btn
+{
+	left: 79%;
+	top: 66%;
+}
+
+#hcpu_btn{
+	left: 79%;
+	top: 15%;
+}
+#hcpu_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+#hmem_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+#hnet_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+#cpu_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+#mem_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+#net_btn:hover
+{
+	background: rgba(0,0,0,0.1);
+}
+
+#hmem_btn
+{
+	left: 79%;
+	top: 40%;
+}
+
+#hnet_btn
+{
+	left: 79%;
+	top: 65%;
+}
+#cgraph, #mgraph, #hcgraph, #hmgraph{
+	display: none;
+}
+
+
+#alerts
+{
+	position:absolute;
+	top: 0%;
+	left:0%;
+	background: rgba(0,0,0,0);
+	height: 5%;
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.2em;
+	font-size: large;
+	padding: 0.5% 1%;
+	
+}
+
+#alert_info
+{
+	position: fixed;
+	top:6%;
+	left:0%;
+	width:auto;
+	background: rgba(0,0,0,0.4);
+	z-index:1;
+	margin-top:0%;
+	height: auto;
+	box-shadow: 2px 2px 5px #000000;
+	border-radius: 0.2em;
+}
+#searchbar
+{
+	color: #FA1;
+border: medium none;
+background-color: rgba(0, 0, 0, 0.2);
+padding: 0.5%;
+border-radius: 0.5em;
+height: 10%;
+
+
+}
+
+
+
+.select-style{
+  font-size: 100%;
+  padding: 1%;
+  margin: 2% 28% ;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-align:center;
+}
+
+.select-style .select{
+  width: 105%;
+	font-family: 'Roboto', sans-serif;
+  background:url('arrow.png') no-repeat;
+  background-position:100% ;
+	background-size: 16%;
+}
+
+.select-style .select select{
+  background: transparent;
+	font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1.3em;
+}
+.select-style .select option{
+	background: #006479;
+	
+	border: 0%;
+}
+
+
+#tbl
+{	
+	border-collapse: collapse;
+    	left:0%;
+	background: rgba(0,0,0);
+	text-align: center;
+    	height: 100%;
+	width:100%;
+	font-size: 100%;
+}
+
+ #c_tbl
+{
+	border-collapse: collapse;
+    	left:0%;
+	background: rgba(0,0,0);
+	text-align: center;
+   	height: 100%;
+	width:100%;
+	font-size: 100%;
+}
+
+
+
+.graph
+{
+	top:2.5%;
+	height: 95%;	
+	left:0%;
+	background: rgba(0,0,0,.4);
+	width: 99.5%;
+	overflow:auto;
+	box-shadow: 4px 4px 5px #000000;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	
+}
+
+.Container_info
+{
+	top: 5%;
+	left:0%;
+	background: rgba(0,0,0,.4);
+	width: 88%;
+	height: 100%;
+	font-size: 20%;
+	box-shadow: 2px 2px 5px #000000;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+tr,td, th 
+{
+    padding: 0;
+    text-align: center;    
+	font-size: 100%;
+	
+}
+
+td
+{
+	color: #fff;
+}
+
+a
+{
+ 	color: #fee099;
+}
+a:hover
+{
+ 	color: #fa1;
+}
+
+
+.modal-header, h4, .close {
+      background-color: #8cd4f5;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+#submit {
+      background-color: #8cd4f5;
+	color: white;
+	position: relative;
+	margin: 3% 45%;
+  }
+	.form-group {
+ 			margin-bottom: 1%;
+			}
+
+#contgraph , #conthistory
+{
+	height: 80%;
+	top: 18%;
+	position: absolute;
+	width: 100%;
+	left: 0%;
+}
+
+.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 300px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+  font-size: large;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
