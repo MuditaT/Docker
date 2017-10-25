@@ -217,6 +217,6 @@ def containerStatistics(containerid):
 	except:
 		return str("Error")
 
-#running web app
+#running web application
 if __name__ =="__main__":
 	app.run(threaded=True,debug=True)
